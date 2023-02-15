@@ -30,19 +30,13 @@ Android SDK (Software Development Kit) contains the required libraries and tools
 
 ## Building APK
 
-1. Clone [this](https://github.com/sairajzero/AndroidHttpArch) github repo
-```
-git clone https://github.com/sairajzero/AndroidHttpArch.git
-```
+1. Clone/Download this github repo
 2. Copy any webpage files (html, js, css, svg, images, etc) of your project to the `asset` folder (path: `AndroidHttpArch/app/src/main/assets/`)
     - AndroidHttpArch
         - app
             - src
                 - main
                     - assets
-```
-cp path-to-your-project/*  AndroidHttpArch/app/src/main/assets
-```
 3. Open `AndroidHttpArch` folder in Android Studio
     - In Android Studio menubar: Click `File` -> `Open`. Navigate and select `AndroidHttpArch` folder. Click `Ok`.
 4. Edit port and home page in `MainActivity.java`. (path: `AndroidHttpArch/app/src/main/java/com/ranchimall/androidhttparch/MainActivity.java`)
