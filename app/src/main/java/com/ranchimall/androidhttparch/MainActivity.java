@@ -13,8 +13,8 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
     private ServerHttp server;
     private CustomTabsIntent customTabsIntent;
-    private static final int PORT = 7654; //PORT for the local http server
-    private static final String localUrl = "http://localhost:"+PORT+"/home.html";
+    private static final int PORT = 7654; //PORT for the local http server (**Change it so that it wont conflict with other apps**)
+    private static final String localUrl = "http://localhost:"+PORT+"/home.html"; //Note: if your project has index.html or any other homepage path, edit home.html to respective path/filename
     private static final String externalUrl = "https://www.ranchimall.net/";
     private static final String TAG = "Application";
 
